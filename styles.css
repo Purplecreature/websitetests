@@ -9,7 +9,6 @@ main,html{
     padding:0;
     margin:0;
 }
-
 body{
     font-family:Poppins,sans-serif;
     background-color: #EEEDE8;
@@ -19,6 +18,8 @@ body{
     padding:0;
     width:100%;
 }
+
+
 
 figure{
     font-style:italic;
@@ -45,8 +46,8 @@ header{
     color:#EEEDE8;
     padding: 25px 18px;
     position:fixed;
-    width:100%;
     margin:0;
+    width:100%;
     border-bottom:7px inset #DD7F43;
     border-radius:0 0 60px 60px / 0 0 30px 30px;
     box-shadow: 0 0 3px #3F3745;
@@ -110,6 +111,7 @@ section div:not(:first-child){
 
 section{
     margin: 0 30px;
+
 }
 
 .paras p{
@@ -150,3 +152,7 @@ a:active{
 }
 
 
+.references{
+    word-wrap: break-word;
+    width:85%;
+}
